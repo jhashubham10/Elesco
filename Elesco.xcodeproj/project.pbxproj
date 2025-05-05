@@ -208,6 +208,9 @@
 			);
 			mainGroup = 150062FF2DC48EED0032FC7D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				15B634052DC4EFB700BEACE2 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 150063092DC48EED0032FC7D /* Products */;
 			projectDirPath = "";
@@ -569,6 +572,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		15B634052DC4EFB700BEACE2 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ninjaprox/NVActivityIndicatorView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 150063002DC48EED0032FC7D /* Project object */;
 }
